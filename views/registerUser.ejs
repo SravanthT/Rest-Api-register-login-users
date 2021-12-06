@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="application/json"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>User Registration</title>
+</head>
+<body>
+  <h2>Register Your Account here</h2>
+  <form method="POST" action ="/register/">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter User name"/><br/>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"placeholder="Enter User email"/><br/>
+    <label for="password">Password:</label>
+    <input type="password" placeholder="password"name="password" id="password" /><br/>
+    <label for="cfmPassword">Confirm-Password</label>
+    <input type="text" name="cfmPassword" id="cfmPassword" placeholder="Confirm Password"><br/>
+    <lable for="isAdmin">IsAdmin</lable>
+    <input type="radio" name="isAdmin" value=true><label>True</label>
+    <input type="radio" name="isAdmin" value=false><label>False</label><br/>
+    <input type="submit" id="submit-btn"/>  </form>
+    
+</body>
+</html>
